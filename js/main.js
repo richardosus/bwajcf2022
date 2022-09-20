@@ -14,6 +14,19 @@ telurFoods[2] = "Pancake";
 // .push untuk menambahkan array di akhir
 telurFoods.push("Sate Telur");
 
+// tipe data object
+let rumahKita = {
+    lebarTanah:50,
+    lebarBangunan:100,
+    warna:'Hitam',
+    kids:[
+        'Jodi',
+        'Bahmi',
+        'Udin'
+    ]
+}
+
 // Menampilkan data
-console.log(telurFoods[2]);
-console.log(telurFoods);
+console.log(telurFoods[0]);
+// object memungkinkan memanggil data tanpa menghitung urutan seperti array
+console.log(rumahKita.warna);
