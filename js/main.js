@@ -1,32 +1,12 @@
-// Tipe data String
-let boxSaya = 'Sepatu';
-// Tipe data Number
-let jumlahBox = 5;
-// Tipe data Boolean
-let wallet = 10000;
-let hutang = 9000;
+// belajar aritmatika
+let hargaBarang = 50000;
+let pajakBarang = 25;
+let totalPajak = hargaBarang*pajakBarang/100;
 
-// tipe data array
-// jumlah anak di array dihitung dari 0 bukan 1
-let telurFoods = ['Gado-gado', 'Ketoprak', 'BMW', 'Omelette', 'Jengkol', 'Bubur Ayam'];
-// mendeklarasikan data yang tidak sesuai array dengan metode replace
-telurFoods[2] = "Pancake";
-// .push untuk menambahkan array di akhir
-telurFoods.push("Sate Telur");
-
-// tipe data object
-let rumahKita = {
-    lebarTanah:50,
-    lebarBangunan:100,
-    warna:'Hitam',
-    kids:[
-        'Jodi',
-        'Bahmi',
-        'Udin'
-    ]
-}
+let itemKerangjang = 0;
+let itemSaya = 5;
+itemKerangjang = itemSaya;
 
 // Menampilkan data
-console.log(telurFoods[0]);
-// object memungkinkan memanggil data tanpa menghitung urutan seperti array
-console.log(rumahKita.warna);
+console.log(totalPajak);
+console.log(itemKerangjang);
