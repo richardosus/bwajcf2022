@@ -1,12 +1,9 @@
-// belajar aritmatika
-let hargaBarang = 50000;
-let pajakBarang = 25;
-let totalPajak = hargaBarang*pajakBarang/100;
-
-let itemKerangjang = 0;
-let itemSaya = 5;
-itemKerangjang = itemSaya;
+// Belajar Operator
+let container1 = 20;
+let container2 = 100;
+let totalContainer = container1 + container2;
+let compare = container1 >= container2;
 
 // Menampilkan data
-console.log(totalPajak);
-console.log(itemKerangjang);
+console.log(totalContainer);
+console.log(compare);
