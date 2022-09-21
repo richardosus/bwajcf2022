@@ -1,9 +1,17 @@
-// Belajar Operator
-let container1 = 20;
-let container2 = 100;
-let totalContainer = container1 + container2;
-let compare = container1 >= container2;
+// Belajar Logical Operator
+let usernameDatabase = "hujan";
+let passwordDatabase = "123aaa";
+
+let usernameDariInputUser = "hujan";
+let passwordDariInputUser = "111aaa";
+
+let validasiDataUser = usernameDariInputUser == usernameDatabase && passwordDariInputUser == passwordDatabase;
+
+let cuaca1 = "hujan"
+let cuaca2 = "tidak bersalju"
+
+let pakeJaket = cuaca1 == "hujan" || cuaca1 == "tidak bersalju";
 
 // Menampilkan data
-console.log(totalContainer);
-console.log(compare);
+console.log(validasiDataUser);
+console.log(pakeJaket)
