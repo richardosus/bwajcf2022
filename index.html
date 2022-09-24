@@ -1,15 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar JS Fundamental 2022</title>
-</head>
-<body>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste error pariatur modi assumenda itaque odio, necessitatibus minima, tenetur doloribus, dolore iusto voluptatibus minus ducimus. Dolores quisquam quasi repellat, animi ipsum facere unde nesciunt veniam, veritatis accusamus corporis repellendus quo libero dolor iste culpa aut assumenda, ipsa dolorum commodi! Dolorum vel hic pariatur necessitatibus molestias repudiandae excepturi provident sed atque, rerum dolores aliquid officiis sint aliquam sapiente at praesentium, possimus culpa dignissimos! Quis earum magni voluptate voluptates odio dignissimos ratione, porro fugit nostrum velit delectus vel voluptatem explicabo rerum. Quo modi quos labore blanditiis amet nihil nisi quaerat at ipsum cupiditate.</p>
-
-    <!-- Menggunakan external javascript -->
-    <script src="js/main.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container py-5 my-5">
+            <div class="row">
+                <div class="col-6">
+                    <h3>Form Login</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button onclick="checkUserData('richardo','123aaa')" class="btn btn-primary">Check Profile</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>

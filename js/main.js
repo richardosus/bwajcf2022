@@ -5,7 +5,5 @@ function checkUserData(username, password) {
     let passwordDb = '123aaa';
 
     let validasi = username == usernameDb && password == passwordDb;
-    console.log(validasi);
+    alert(validasi);
 }
-
-checkUserData("richardo", "123aaa");
