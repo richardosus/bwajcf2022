@@ -1,24 +1,27 @@
-// Belajar Function
-// function adalah sebuah container yang didesain untuk menjalankan berbagai aksi
-function checkUserData(username, password) {
-    let usernameDb = 'richardo';
-    let usernameDb2 = 'richardo2';
-    let passwordDb = '123aaa';
-    let passwordDb2 = '123';
+// Belajar Switch Case
 
-    if (username == usernameDb) {
-        if (password == passwordDb) {
-            alert('Berhasil Login')
-        } else{
-            alert('Password salah')
-        }
-    } else if(username == usernameDb2){
-        if (password == passwordDb2) {
-            alert('Berhasil Login Username2')
-        } else {
-            alert('Password Username2 Salah')
-        }
-    } else{
-        alert('Username salah')
-    }
+let tabungan = 160000;
+
+switch (tabungan) {
+    case 0:
+        console.log("Kerja dulu baru beli mobil");
+        break;
+    case 50000:
+    case 100000:
+    case 115000:
+        console.log("Beli mobil Avanza");
+        break;
+    case 150000:
+        console.log("Beli mobil BRV");
+        break;
+    case 160000:
+    case 200000:
+        console.log('Beli pesawat jet');
+        break;
+    default:
+        console.log('tidak ada pilihan');
+        break;
 }
+
+// Menampilkan data
+
