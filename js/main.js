@@ -1,27 +1,9 @@
-// Belajar Switch Case
+// Belajar For Loop
 
-let tabungan = 160000;
+let kelasPremium = ['Blender', 'Laravel', 'React JS', 'Flutter', 'Swift UI']
 
-switch (tabungan) {
-    case 0:
-        console.log("Kerja dulu baru beli mobil");
-        break;
-    case 50000:
-    case 100000:
-    case 115000:
-        console.log("Beli mobil Avanza");
-        break;
-    case 150000:
-        console.log("Beli mobil BRV");
-        break;
-    case 160000:
-    case 200000:
-        console.log('Beli pesawat jet');
-        break;
-    default:
-        console.log('tidak ada pilihan');
-        break;
+// Menampilkan hasil
+for (let i = 2; i < kelasPremium.length; i++) {
+    const element = kelasPremium[i];
+    console.log(element);
 }
-
-// Menampilkan data
-
