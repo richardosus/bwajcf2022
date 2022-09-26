@@ -1,11 +1,9 @@
-// typeof
+// DOM Beginners
 
-let namaUser = 'Richardo';
-let mobil = ['bmw', 'audi', 'jeep']
-let isPremium = true;
+// select an element
+let titleCarOne = document.getElementById('carName1');
+let priceCarOne = document.getElementById('carPrice1');
 
-console.log(typeof(mobil));
-
-if (isPremium == true) {
-    alert('Wecome to member')
-}
+// innerHTML berguna untuk mengubah nilai pada HTML
+titleCarOne.innerHTML = 'Ford Mustang Cobra';
+priceCarOne.innerHTML = '$670,000';
