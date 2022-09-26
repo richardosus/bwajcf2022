@@ -1,20 +1,17 @@
-// Belajar For In Loop
+// Belajar While
 
 let kelasPremium = ['Blender', 'Laravel', 'React JS', 'Flutter', 'Swift UI']
-let rumah = {
-    cat:'biru',
-    lantai:'marmer',
-    mobil:'3',
-}
 
-// Menampilkan data
-console.log(rumah);
+// Menampilkan hasil
 
-// Perulangan data
+// for (let i = 2; i < kelasPremium.length; i++) {
+//     const element = kelasPremium[i];
+//     console.log(element);
+// }
 
-for (const data in rumah) {
-    if (Object.hasOwnProperty.call(rumah, data)) {
-        const element = rumah[data];
-        console.log(element);
-    }
+let i = 0;
+
+while (i<kelasPremium.length) {
+    console.log(kelasPremium[i]);
+    i++;
 }
